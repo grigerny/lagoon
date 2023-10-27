@@ -12,7 +12,7 @@ import {
 import { bytesToHex, hexToBytes } from "@noble/hashes/utils";
 import * as btc from "@scure/btc-signer";
 
-import { UserContext } from "src/UserContext.js";
+import { UserContext } from "/src/UserContext";
 
 export default function DepositForm() {
   const { userData } = useContext(UserContext);
